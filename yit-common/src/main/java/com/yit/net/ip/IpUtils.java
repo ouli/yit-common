@@ -74,8 +74,4 @@ public class IpUtils {
 	public static boolean validateIP(String ipstr) {
 		return IP_PATTERN.matcher(ipstr).matches();
 	}
-	
-	public static void main(String[] args) {
-		
-	}
 }
