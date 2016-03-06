@@ -51,7 +51,7 @@ public class IpUtilsTest extends TestCase {
 	}
 	
 	public void testIpLong2bytes() {
-		String ipstr = "192.168.1.1";
+		String ipstr = "172.16.24.35";
 		long iplong = IpUtils.ipStr2Long(ipstr);
 		byte[] ipbytes = IpUtils.ipLong2bytes(iplong);
 		
